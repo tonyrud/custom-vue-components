@@ -8,5 +8,5 @@ module.exports = {
     '.*\\.(vue)$': '<rootDir>/node_modules/vue-jest',
   },
   transformIgnorePatterns: ['<rootDir>/node_modules/'],
-  testMatch: ['**/__tests__/**/*.[jt]s?(x)'],
+  testMatch: ['**/?(*.)+(spec|test).[jt]s?(x)'],
 }

@@ -39,6 +39,7 @@
     },
     "dependencies": {
         "@storybook/addon-storyshots": "^5.0.11",
-        "vue": "^2.6.10"
+        "vue": "^2.6.10",
+        "vuelidate": "^0.7.4"
     }
 }

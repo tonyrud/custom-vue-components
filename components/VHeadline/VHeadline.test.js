@@ -1,4 +1,4 @@
-import Headline from './../VHeadline'
+import Headline from './VHeadline'
 import { shallowMount } from '@vue/test-utils'
 
 const propsData = {

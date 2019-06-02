@@ -1,5 +1,5 @@
 import { shallowMount } from '@vue/test-utils'
-import Paragraph from './../VParagraph'
+import Paragraph from './VParagraph'
 
 let testHelpers
 
