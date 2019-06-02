@@ -1,26 +1,27 @@
-import TestHelpers from '@@/.config/jest/TestHelpers'
+import { shallowMount } from '@vue/test-utils'
 import Paragraph from './../VParagraph'
 
 let testHelpers
 
 describe('VParagraph', () => {
+  let wrapper
   describe('Slots', () => {
     beforeEach(() => {
-      testHelpers = new TestHelpers(Paragraph, {
+      wrapper = shallowMount(Paragraph, {
         context: {
           children: ['slot text'],
         },
       })
     })
     it('slot renders text', () => {
-      const slot = testHelpers.wrapper.find('.paragraph')
+      const slot = wrapper.find('.paragraph')
       expect(slot.text()).toBe('slot text')
     })
   })
 
   describe('domProps renders correct text', () => {
     beforeEach(() => {
-      testHelpers = new TestHelpers(Paragraph, {
+      wrapper = shallowMount(Paragraph, {
         context: {
           domProps: { innerHTML: 'inner html works' },
         },
@@ -28,7 +29,7 @@ describe('VParagraph', () => {
     })
 
     it('inner html text is correct', () => {
-      const slot = testHelpers.wrapper.find('.paragraph')
+      const slot = wrapper.find('.paragraph')
       expect(slot.text()).toBe('inner html works')
     })
   })
