@@ -2,7 +2,7 @@ import { storiesOf } from '@storybook/vue'
 import { withKnobs, text, boolean, select } from '@storybook/addon-knobs'
 import VHeadline from './VHeadline'
 
-const stories = storiesOf('VHeadline', module)
+const stories = storiesOf('Content', module)
 
 const options = {
   h1: '1',
@@ -15,7 +15,7 @@ const options = {
 
 stories.addDecorator(withKnobs)
 
-stories.add('normal', () => ({
+stories.add('VHeadline', () => ({
   components: { VHeadline },
   props: {
     upper: {

@@ -21,6 +21,7 @@
   },
   "scripts": {
     "storybook": "start-storybook -p 6008 --ci",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "publish": "lerna publish"
   }
 }
