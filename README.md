@@ -19,3 +19,11 @@ Make changes and publish the version you would like
 ```js
 npm run publish
 ```
+
+View component docs and usage
+
+```js
+npm run styleguide
+```
+
+

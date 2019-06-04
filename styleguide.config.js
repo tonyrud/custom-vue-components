@@ -1,6 +1,7 @@
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
 // require('./.styleguide/styles.css')
 module.exports = {
+  title: 'Style Guide',
   components: 'components/**/*.vue',
   usageMode: 'expand',
   exampleMode: 'collapse',

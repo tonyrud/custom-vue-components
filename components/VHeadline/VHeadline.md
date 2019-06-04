@@ -1,10 +1,16 @@
 ### Examples
 
 ```jsx
-    <VHeadline :upper="false" level="1">Headline</VHeadline><br />
-    <VHeadline :upper="false" level="2">Headline</VHeadline><br />
-    <VHeadline :upper="false" level="3">Headline</VHeadline><br />
-    <VHeadline :upper="false" level="4">Headline</VHeadline><br />
-    <VHeadline :upper="false" level="5">Headline</VHeadline><br />
-    <VHeadline :upper="false" level="6">Headline</VHeadline>
+    <div>h1</div>
+    <VHeadline level="1">Headline</VHeadline>
+    <div>h2</div>
+    <VHeadline level="2">Headline</VHeadline><br />
+    <div>h3</div>
+    <VHeadline level="3">Headline</VHeadline><br />
+    <div>h4</div>
+    <VHeadline level="4">Headline</VHeadline><br />
+    <div>h5</div>
+    <VHeadline level="5">Headline</VHeadline><br />
+    <div>h6</div>
+    <VHeadline level="6">Headline</VHeadline>
 ```
