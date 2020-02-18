@@ -1,6 +1,6 @@
 <template>
-    <span
-        :class="{
+  <span
+    :class="{
             upper: upper,
             h1: level == '1',
             h2: level == '2',
@@ -10,10 +10,10 @@
             h6: level == '6',
             subheader: subHeader,
         }"
-        class="heading__text"
-    >
-        <slot />
-    </span>
+    class="heading__text"
+  >
+    <slot />
+  </span>
 </template>
 
 <script>
