@@ -18,7 +18,7 @@
     "@storybook/addon-knobs": "^5.0.11",
     "@storybook/addon-links": "^5.0.11",
     "@storybook/addons": "^5.0.11",
-    "@storybook/vue": "^5.0.11",
+    "@storybook/vue": "^6.5.13",
     "@vue/test-utils": "^1.0.0-beta.29",
     "babel-core": "^7.0.0-bridge.0",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
@@ -41,7 +41,7 @@
     "webpack": "^4.32.2"
   },
   "dependencies": {
-    "@storybook/addon-storyshots": "^5.3.13",
+    "@storybook/addon-storyshots": "^6.5.13",
     "vue": "^2.6.10",
     "vuelidate": "^0.7.4"
   }
